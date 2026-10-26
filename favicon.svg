@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">PlateClerk: a dinner plate with this week's supplier invoice laid on it, one line marked</title>
+  <defs>
+    <linearGradient id="tile-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A8A22"/>
+      <stop offset="1" stop-color="#4A5612"/>
+    </linearGradient>
+  </defs>
+  <rect id="tile-bg" x="0" y="0" width="64" height="64" rx="14" fill="url(#tile-grad)"/>
+  <g id="plate">
+    <circle data-part="rim" data-color="plate" cx="25" cy="31" r="20" fill="#F8F3E6"/>
+    <circle data-part="well" data-color="plate-well" cx="25" cy="31" r="14" fill="#E9DFC7"/>
+  </g>
+  <g id="slip" transform="rotate(10 42 35)">
+    <polygon data-part="paper" data-color="slip" fill="#FFFFFF"
+      points="31,15 53,15 53,49 50.25,52 47.5,49 44.75,52 42,49 39.25,52 36.5,49 33.75,52 31,49"/>
+    <rect data-part="head" data-color="ink" x="35" y="20" width="14" height="3.6" rx="1.8" fill="#22261A"/>
+    <rect data-part="line" data-color="ink" x="35" y="27" width="10" height="2.6" rx="1.3" fill="#22261A"/>
+    <rect data-part="line" data-color="ink" x="35" y="32" width="12" height="2.6" rx="1.3" fill="#22261A"/>
+    <rect data-part="moved" data-color="tomato" x="35" y="38" width="14" height="4.4" rx="2.2" fill="#C8432B"/>
+  </g>
+</svg>
